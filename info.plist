@@ -6,31 +6,6 @@
 	<string></string>
 	<key>connections</key>
 	<dict>
-		<key>12CC88B4-B8D5-45F2-A7F8-C9083FF906F8</key>
-		<array>
-			<dict>
-				<key>destinationuid</key>
-				<string>5F34C1AA-276D-41D3-B7C5-1CB97C68F47A</string>
-				<key>modifiers</key>
-				<integer>0</integer>
-				<key>modifiersubtext</key>
-				<string></string>
-				<key>sourceoutputuid</key>
-				<string>70E1BD26-A3FC-4C09-958E-124D47EBCB4C</string>
-				<key>vitoclose</key>
-				<false/>
-			</dict>
-			<dict>
-				<key>destinationuid</key>
-				<string>79797949-AD92-4049-91B7-7FADB9E67A12</string>
-				<key>modifiers</key>
-				<integer>0</integer>
-				<key>modifiersubtext</key>
-				<string></string>
-				<key>vitoclose</key>
-				<false/>
-			</dict>
-		</array>
 		<key>2323D4A0-11CB-45D1-A1E4-1CC588F7FFC5</key>
 		<array/>
 		<key>393A642F-DA03-404F-9A94-5397FB31ED43</key>
@@ -71,19 +46,6 @@
 			<dict>
 				<key>destinationuid</key>
 				<string>F03C70CE-80AA-426C-922B-2843D52794FE</string>
-				<key>modifiers</key>
-				<integer>0</integer>
-				<key>modifiersubtext</key>
-				<string></string>
-				<key>vitoclose</key>
-				<false/>
-			</dict>
-		</array>
-		<key>859DF162-F833-47F5-A932-A27D1DE6AF99</key>
-		<array>
-			<dict>
-				<key>destinationuid</key>
-				<string>D225304E-7F42-4FDB-A1D3-7367F012C5A3</string>
 				<key>modifiers</key>
 				<integer>0</integer>
 				<key>modifiersubtext</key>
@@ -141,45 +103,6 @@
 				<false/>
 			</dict>
 		</array>
-		<key>D225304E-7F42-4FDB-A1D3-7367F012C5A3</key>
-		<array>
-			<dict>
-				<key>destinationuid</key>
-				<string>E3317712-0546-49BC-AC83-9566E9C58465</string>
-				<key>modifiers</key>
-				<integer>0</integer>
-				<key>modifiersubtext</key>
-				<string></string>
-				<key>vitoclose</key>
-				<false/>
-			</dict>
-		</array>
-		<key>D6CF9D98-3DA3-4C80-A9DA-FCEC186BCA97</key>
-		<array>
-			<dict>
-				<key>destinationuid</key>
-				<string>DFD0C695-A720-4758-8CC5-015B3F4C3993</string>
-				<key>modifiers</key>
-				<integer>0</integer>
-				<key>modifiersubtext</key>
-				<string></string>
-				<key>vitoclose</key>
-				<false/>
-			</dict>
-		</array>
-		<key>DFD0C695-A720-4758-8CC5-015B3F4C3993</key>
-		<array>
-			<dict>
-				<key>destinationuid</key>
-				<string>12CC88B4-B8D5-45F2-A7F8-C9083FF906F8</string>
-				<key>modifiers</key>
-				<integer>0</integer>
-				<key>modifiersubtext</key>
-				<string></string>
-				<key>vitoclose</key>
-				<false/>
-			</dict>
-		</array>
 	</dict>
 	<key>createdby</key>
 	<string>afridho</string>
@@ -199,7 +122,7 @@
 				<key>escaping</key>
 				<integer>70</integer>
 				<key>script</key>
-				<string>/Library/Frameworks/Python.framework/Versions/3.9/bin/python3 -m yvs.get_sabda "$@"</string>
+				<string>/usr/bin/env python -m yvs.get_sabda "$@"</string>
 				<key>scriptargtype</key>
 				<integer>1</integer>
 				<key>scriptfile</key>
@@ -230,7 +153,7 @@
 				<key>escaping</key>
 				<integer>68</integer>
 				<key>keyword</key>
-				<string>yvfilter</string>
+				<string>ayat</string>
 				<key>queuedelaycustom</key>
 				<integer>3</integer>
 				<key>queuedelayimmediatelyinitially</key>
@@ -250,7 +173,7 @@
 				<key>subtext</key>
 				<string></string>
 				<key>title</key>
-				<string>Type the name of a chapter or range or verses...</string>
+				<string>Ayat yang mau dilihat...</string>
 				<key>type</key>
 				<integer>0</integer>
 				<key>withspace</key>
@@ -345,33 +268,12 @@
 		<dict>
 			<key>config</key>
 			<dict>
-				<key>lastpathcomponent</key>
-				<false/>
-				<key>onlyshowifquerypopulated</key>
-				<false/>
-				<key>removeextension</key>
-				<false/>
-				<key>text</key>
-				<string>Copied {var:full_ref_name} to clipboard</string>
-				<key>title</key>
-				<string>YouVersion Suggest</string>
-			</dict>
-			<key>type</key>
-			<string>alfred.workflow.output.notification</string>
-			<key>uid</key>
-			<string>5F34C1AA-276D-41D3-B7C5-1CB97C68F47A</string>
-			<key>version</key>
-			<integer>1</integer>
-		</dict>
-		<dict>
-			<key>config</key>
-			<dict>
 				<key>concurrently</key>
 				<false/>
 				<key>escaping</key>
 				<integer>70</integer>
 				<key>script</key>
-				<string>/Library/Frameworks/Python.framework/Versions/3.9/bin/python3 -m yvs.get_sabda_withnumber "$@"</string>
+				<string>/usr/bin/env python -m yvs.get_sabda_withnumber "$@"</string>
 				<key>scriptargtype</key>
 				<integer>1</integer>
 				<key>scriptfile</key>
@@ -389,160 +291,23 @@
 		<dict>
 			<key>config</key>
 			<dict>
-				<key>conditions</key>
-				<array>
-					<dict>
-						<key>inputstring</key>
-						<string>{var:copied_ref}</string>
-						<key>matchcasesensitive</key>
-						<false/>
-						<key>matchmode</key>
-						<integer>1</integer>
-						<key>matchstring</key>
-						<string></string>
-						<key>outputlabel</key>
-						<string>success</string>
-						<key>uid</key>
-						<string>70E1BD26-A3FC-4C09-958E-124D47EBCB4C</string>
-					</dict>
-				</array>
-				<key>elselabel</key>
-				<string>error</string>
-			</dict>
-			<key>type</key>
-			<string>alfred.workflow.utility.conditional</string>
-			<key>uid</key>
-			<string>12CC88B4-B8D5-45F2-A7F8-C9083FF906F8</string>
-			<key>version</key>
-			<integer>1</integer>
-		</dict>
-		<dict>
-			<key>config</key>
-			<dict>
 				<key>argumenttype</key>
 				<integer>2</integer>
 				<key>keyword</key>
-				<string>yvclearcache</string>
+				<string>ayat-help</string>
 				<key>subtext</key>
 				<string></string>
 				<key>text</key>
-				<string>Clear YouVersion Suggest cache...</string>
+				<string>Get help with YouVersion Suggest</string>
 				<key>withspace</key>
 				<false/>
 			</dict>
 			<key>type</key>
 			<string>alfred.workflow.input.keyword</string>
 			<key>uid</key>
-			<string>859DF162-F833-47F5-A932-A27D1DE6AF99</string>
+			<string>D209E86B-7800-465E-947C-001324F6C7FE</string>
 			<key>version</key>
 			<integer>1</integer>
-		</dict>
-		<dict>
-			<key>config</key>
-			<dict>
-				<key>lastpathcomponent</key>
-				<false/>
-				<key>onlyshowifquerypopulated</key>
-				<false/>
-				<key>removeextension</key>
-				<false/>
-				<key>text</key>
-				<string>Error trying to copy {var:full_ref_name}</string>
-				<key>title</key>
-				<string>YouVersion Suggest</string>
-			</dict>
-			<key>type</key>
-			<string>alfred.workflow.output.notification</string>
-			<key>uid</key>
-			<string>79797949-AD92-4049-91B7-7FADB9E67A12</string>
-			<key>version</key>
-			<integer>1</integer>
-		</dict>
-		<dict>
-			<key>config</key>
-			<dict>
-				<key>autopaste</key>
-				<false/>
-				<key>clipboardtext</key>
-				<string>{var:copied_ref}</string>
-				<key>ignoredynamicplaceholders</key>
-				<false/>
-				<key>transient</key>
-				<false/>
-			</dict>
-			<key>type</key>
-			<string>alfred.workflow.output.clipboard</string>
-			<key>uid</key>
-			<string>DFD0C695-A720-4758-8CC5-015B3F4C3993</string>
-			<key>version</key>
-			<integer>3</integer>
-		</dict>
-		<dict>
-			<key>config</key>
-			<dict>
-				<key>concurrently</key>
-				<false/>
-				<key>escaping</key>
-				<integer>68</integer>
-				<key>script</key>
-				<string>/usr/bin/python -m yvs.clear_cache "$@"</string>
-				<key>scriptargtype</key>
-				<integer>1</integer>
-				<key>scriptfile</key>
-				<string></string>
-				<key>type</key>
-				<integer>0</integer>
-			</dict>
-			<key>type</key>
-			<string>alfred.workflow.action.script</string>
-			<key>uid</key>
-			<string>D225304E-7F42-4FDB-A1D3-7367F012C5A3</string>
-			<key>version</key>
-			<integer>2</integer>
-		</dict>
-		<dict>
-			<key>config</key>
-			<dict>
-				<key>lastpathcomponent</key>
-				<false/>
-				<key>onlyshowifquerypopulated</key>
-				<true/>
-				<key>removeextension</key>
-				<false/>
-				<key>text</key>
-				<string>Cleared cache</string>
-				<key>title</key>
-				<string>YouVersion Suggest</string>
-			</dict>
-			<key>type</key>
-			<string>alfred.workflow.output.notification</string>
-			<key>uid</key>
-			<string>E3317712-0546-49BC-AC83-9566E9C58465</string>
-			<key>version</key>
-			<integer>1</integer>
-		</dict>
-		<dict>
-			<key>config</key>
-			<dict>
-				<key>concurrently</key>
-				<false/>
-				<key>escaping</key>
-				<integer>68</integer>
-				<key>script</key>
-				<string>/usr/bin/python -m yvs.copy_ref "$@"</string>
-				<key>scriptargtype</key>
-				<integer>1</integer>
-				<key>scriptfile</key>
-				<string></string>
-				<key>type</key>
-				<integer>0</integer>
-			</dict>
-			<key>type</key>
-			<string>alfred.workflow.action.script</string>
-			<key>uid</key>
-			<string>D6CF9D98-3DA3-4C80-A9DA-FCEC186BCA97</string>
-			<key>version</key>
-			<integer>2</integer>
 		</dict>
 		<dict>
 			<key>config</key>
@@ -563,48 +328,20 @@
 			<key>version</key>
 			<integer>1</integer>
 		</dict>
-		<dict>
-			<key>config</key>
-			<dict>
-				<key>argumenttype</key>
-				<integer>2</integer>
-				<key>keyword</key>
-				<string>yvhelp</string>
-				<key>subtext</key>
-				<string></string>
-				<key>text</key>
-				<string>Get help with YouVersion Suggest</string>
-				<key>withspace</key>
-				<false/>
-			</dict>
-			<key>type</key>
-			<string>alfred.workflow.input.keyword</string>
-			<key>uid</key>
-			<string>D209E86B-7800-465E-947C-001324F6C7FE</string>
-			<key>version</key>
-			<integer>1</integer>
-		</dict>
 	</array>
 	<key>readme</key>
 	<string>Please refer to the README on the YouVersion Suggest GitHub repository:
 https://github.com/caleb531/youversion-suggest#readme</string>
 	<key>uidata</key>
 	<dict>
-		<key>12CC88B4-B8D5-45F2-A7F8-C9083FF906F8</key>
-		<dict>
-			<key>xpos</key>
-			<integer>1170</integer>
-			<key>ypos</key>
-			<integer>330</integer>
-		</dict>
 		<key>1D3EF4CB-BE7F-401C-B7C7-E4E2C72F2A7A</key>
 		<dict>
 			<key>note</key>
 			<string>Open GitHub</string>
 			<key>xpos</key>
-			<integer>320</integer>
+			<integer>385</integer>
 			<key>ypos</key>
-			<integer>850</integer>
+			<integer>405</integer>
 		</dict>
 		<key>2323D4A0-11CB-45D1-A1E4-1CC588F7FFC5</key>
 		<dict>
@@ -627,29 +364,6 @@ https://github.com/caleb531/youversion-suggest#readme</string>
 			<key>ypos</key>
 			<integer>260</integer>
 		</dict>
-		<key>5F34C1AA-276D-41D3-B7C5-1CB97C68F47A</key>
-		<dict>
-			<key>xpos</key>
-			<integer>1270</integer>
-			<key>ypos</key>
-			<integer>255</integer>
-		</dict>
-		<key>79797949-AD92-4049-91B7-7FADB9E67A12</key>
-		<dict>
-			<key>xpos</key>
-			<integer>1305</integer>
-			<key>ypos</key>
-			<integer>435</integer>
-		</dict>
-		<key>859DF162-F833-47F5-A932-A27D1DE6AF99</key>
-		<dict>
-			<key>note</key>
-			<string>Clear Cache</string>
-			<key>xpos</key>
-			<integer>30</integer>
-			<key>ypos</key>
-			<integer>375</integer>
-		</dict>
 		<key>9EEC32B8-4AB6-41AA-93E2-4F842837DF26</key>
 		<dict>
 			<key>note</key>
@@ -671,41 +385,9 @@ https://github.com/caleb531/youversion-suggest#readme</string>
 			<key>note</key>
 			<string>Get Help</string>
 			<key>xpos</key>
-			<integer>15</integer>
+			<integer>40</integer>
 			<key>ypos</key>
-			<integer>850</integer>
-		</dict>
-		<key>D225304E-7F42-4FDB-A1D3-7367F012C5A3</key>
-		<dict>
-			<key>note</key>
-			<string>Clear Cache</string>
-			<key>xpos</key>
-			<integer>320</integer>
-			<key>ypos</key>
-			<integer>700</integer>
-		</dict>
-		<key>D6CF9D98-3DA3-4C80-A9DA-FCEC186BCA97</key>
-		<dict>
-			<key>note</key>
-			<string>Copy Reference</string>
-			<key>xpos</key>
-			<integer>1025</integer>
-			<key>ypos</key>
-			<integer>710</integer>
-		</dict>
-		<key>DFD0C695-A720-4758-8CC5-015B3F4C3993</key>
-		<dict>
-			<key>xpos</key>
-			<integer>1035</integer>
-			<key>ypos</key>
-			<integer>525</integer>
-		</dict>
-		<key>E3317712-0546-49BC-AC83-9566E9C58465</key>
-		<dict>
-			<key>xpos</key>
-			<integer>535</integer>
-			<key>ypos</key>
-			<integer>700</integer>
+			<integer>385</integer>
 		</dict>
 		<key>F03C70CE-80AA-426C-922B-2843D52794FE</key>
 		<dict>
