@@ -397,10 +397,8 @@ https://github.com/caleb531/youversion-suggest#readme</string>
 			<integer>220</integer>
 		</dict>
 	</dict>
-	<key>variablesdontexport</key>
-	<array/>
 	<key>version</key>
-	<string>11.4.1</string>
+	<string>1.0.0</string>
 	<key>webaddress</key>
 	<string>gtihub.com/afridho</string>
 </dict>

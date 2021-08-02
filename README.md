@@ -1,6 +1,7 @@
 # Nama Workflow
 
 Alfred Bible TB (Indonesia)
+versi 1.0.0
 
 ## Deskripsi
 
@@ -25,6 +26,35 @@ atau bisa mengunjungi link ini cara install dependensinya https://pypi.org/proje
 
 ### Menjalankan workflow
 
-* mulai cari ayat dengan keyword **ayat** atau dengan Hotkey yang dapat diset manual pada alfred sesuai kengingan
+* Mulai cari ayat dengan keyword **ayat** atau dengan Hotkey yang dapat diset manual pada alfred sesuai kengingan
 
-![lakukan pencarian ayat](https://github.com/afridho/bible-terjemahan-baru/blob/master/https://github.com/afridho/bible-terjemahan-baru/blob/master/screenshot1)
+![set hotkey untuk mempercepat workflow](https://github.com/afridho/bible-terjemahan-baru/blob/master/screenshot1-a.png?raw=true)
+
+
+![lakukan pencarian ayat](https://github.com/afridho/bible-terjemahan-baru/blob/master/screenshot1.png?raw=true)
+
+![lakukan pencarian ayat](https://github.com/afridho/bible-terjemahan-baru/blob/master/screenshot2.png?raw=true)
+
+![lakukan pencarian ayat](https://github.com/afridho/bible-terjemahan-baru/blob/master/screenshot3.png?raw=true)
+
+Setiap ayat yang dicari akan langsung dicopy diclipboard, tinggal paste untuk menggunakannya `command+v`. 
+Untuk menampilkan nomor ayatnya, bisa menggunakan kombinasi tombol `option⌥` lalu enter `return`
+
+![lakukan pencarian ayat](https://github.com/afridho/bible-terjemahan-baru/blob/master/screenshot4.png?raw=true)
+
+## Help
+
+Any advise for common problems or issues.
+```
+command to run if program contains helper info
+```
+
+## Author
+
+[@caleb532](https://github.com/caleb531/)
+[@afridho](https://github.com/afridho/)
+
+## Version History
+
+* 1.0.0
+    * Released
