@@ -21,7 +21,7 @@ Quicklook untuk ayat-ayat alkitab bahasa indonesia. Workflow ini merupakan versi
 pip install beautifulsoup4
 ```
 atau bisa mengunjungi link ini cara install dependensinya https://pypi.org/project/beautifulsoup4/
-* Install ***AlfredBibleTB.alfredworkflow*** file atau clone repo ini
+* Install ***[AlfredBibleTB.alfredworkflow](https://github.com/afridho/bible-terjemahan-baru/releases/)***
 
 
 ### Menjalankan workflow
