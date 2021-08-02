@@ -5,7 +5,7 @@ versi 1.0.0
 
 ## Deskripsi
 
-Quicklook untuk ayat-ayat alkitab bahasa indonesia. Workflow ini merupakan versi modifikasi dari [youversion-suggest-alfred](https://github.com/caleb531/youversion-suggest-alfred) dari caleb531. Workflow ini juga menggunakan api dari sabda [Sabda Labs](https://labs.sabda.org/API). Untuk mengunakannya anda harus terhubung dengan koneksi internet
+Quicklook untuk ayat-ayat alkitab bahasa indonesia. Workflow ini merupakan versi modifikasi dari [youversion-suggest-alfred](https://github.com/caleb531/youversion-suggest-alfred) dari caleb531. Workflow ini juga menggunakan api dari sabda [Sabda Labs](https://labs.sabda.org/API). Untuk mengunakannya anda harus terhubung dengan koneksi internet.
 
 ## Memulai
 
@@ -21,7 +21,7 @@ Quicklook untuk ayat-ayat alkitab bahasa indonesia. Workflow ini merupakan versi
 pip install beautifulsoup4
 ```
 atau bisa mengunjungi link ini cara install dependensinya https://pypi.org/project/beautifulsoup4/
-* Install ***.alfredworkflow*** file atau clone repo ini
+* Install ***AlfredBibleTB.alfredworkflow*** file atau clone repo ini
 
 
 ### Menjalankan workflow
