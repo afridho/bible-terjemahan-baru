@@ -7,7 +7,6 @@ query = sys.argv[1]
 
 
 url = 'https://alkitab.sabda.org/api/passage.php?passage='+query
-# url = 'https://alkitab.sabda.org/api/passage.php?passage=mat+1:1-4'
 
 document = requests.get(url)
 
