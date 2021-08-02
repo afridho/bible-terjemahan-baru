@@ -11,14 +11,18 @@ Quicklook untuk ayat-ayat alkitab bahasa indonesia. Workflow ini merupakan versi
 
 ### Dependencies
 
-* Beautifulsoap4
+* Beautifulsoap4 & lxml
 * alfred powerpack
 
 ### Installing
 
-* Install Beautifulsoap4 kalau tidak ada (gunakan terminal)
+* Install Beautifulsoap4 & lxml menggunakan terminal (kalau belum ada)
 ```
 pip install beautifulsoup4
+```
+
+```
+pip install lxml
 ```
 atau bisa mengunjungi link ini cara install dependensinya https://pypi.org/project/beautifulsoup4/
 * Install ***[AlfredBibleTB.alfredworkflow](https://github.com/afridho/bible-terjemahan-baru/releases/)***
