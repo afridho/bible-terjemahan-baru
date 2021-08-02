@@ -1,6 +1,3 @@
-
-[![Build Status](https://travis-ci.com/afridho/bible-terjemahan-baru.svg?branch=master)](https://travis-ci.com/afridho/bible-terjemahan-baru)
-
 # Nama Workflow
 
 Alfred Bible TB (Indonesia)
@@ -30,3 +27,4 @@ atau bisa mengunjungi link ini cara install dependensinya https://pypi.org/proje
 
 * mulai cari ayat dengan keyword **ayat** atau dengan Hotkey yang dapat diset manual pada alfred sesuai kengingan
 
+![lakukan pencarian ayat](https://github.com/afridho/bible-terjemahan-baru/blob/master/https://github.com/afridho/bible-terjemahan-baru/blob/master/screenshot1)
