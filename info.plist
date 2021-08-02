@@ -3,7 +3,9 @@
 <plist version="1.0">
 <dict>
 	<key>bundleid</key>
-	<string></string>
+	<string>com.bible.afridho</string>
+	<key>category</key>
+	<string>Productivity</string>
 	<key>connections</key>
 	<dict>
 		<key>2323D4A0-11CB-45D1-A1E4-1CC588F7FFC5</key>
@@ -330,8 +332,7 @@
 		</dict>
 	</array>
 	<key>readme</key>
-	<string>Please refer to the README on the YouVersion Suggest GitHub repository:
-https://github.com/caleb531/youversion-suggest#readme</string>
+	<string>https://github.com/afridho/bible-terjemahan-baru</string>
 	<key>uidata</key>
 	<dict>
 		<key>1D3EF4CB-BE7F-401C-B7C7-E4E2C72F2A7A</key>
@@ -397,6 +398,8 @@ https://github.com/caleb531/youversion-suggest#readme</string>
 			<integer>220</integer>
 		</dict>
 	</dict>
+	<key>variablesdontexport</key>
+	<array/>
 	<key>version</key>
 	<string>1.0.0</string>
 	<key>webaddress</key>
