@@ -1,7 +1,7 @@
 # Nama Workflow
 
 Alfred Bible TB (Indonesia)
-versi 1.0.0
+versi 2.0.0
 
 ## Deskripsi
 
@@ -67,5 +67,8 @@ gunakan keyword `ayathelp` untuk mendapatkan bantuan.
 
 ## Version History
 
-* 1.0.0
-    * Released
+#### 2.0.0
+* add menu option ⌘ key
+
+#### 1.0.0
+* Released
